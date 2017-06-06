@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: redis
-    image: kubernetes/redis:v1
+    image: radish/website_base:1.2
     env:
     - name: MASTER
       value: "true"
